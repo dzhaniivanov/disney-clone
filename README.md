@@ -1,4 +1,5 @@
 # Disney clone with React
 ## Login with Firebase Google
-## State Managment with React Redux
+## State management with React Redux
 ## Designed with styled-components
+### Mobile responsive
