@@ -23,6 +23,8 @@ const Header = (props) => {
             if (user) {
                 setUser(user)
                 history.push('/home')
+            } else {
+                history.push('/');
             }
         })
     }, [userName])
@@ -201,9 +203,9 @@ const NavMenu = styled.div`
    
 }
 
- /*    @media(max-width:768px){
-        display:none;
-    } */
+        @media(max-width:768px){
+            display:none;
+        }
 `;
 
 const Login = styled.a`
@@ -219,6 +221,7 @@ const Login = styled.a`
         background-color: #f9f9f9;
         color:#000;
         border-color:transparent;
+        cursor:pointer;
     }
 `;
 
